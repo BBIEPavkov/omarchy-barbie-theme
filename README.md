@@ -45,6 +45,10 @@ echo "fastfetch" >> ~/.bashrc
 > cp ~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc.bak
 > ```
 
+## VS Code Theme
+
+Pair it with the matching [Omarchy Barbie VS Code theme](https://github.com/BBIEPavkov/vscode-omarchy-barbie-theme) for a fully coordinated Barbie setup across your desktop and editor.
+
 ## Wallpapers
 
 Add your own Barbie-themed wallpapers to `~/.config/omarchy/themes/barbie/backgrounds/` and cycle through them with `Super + Ctrl + Space`.
