@@ -23,6 +23,28 @@ Then apply it:
 omarchy-theme-set barbie
 ```
 
+## Fastfetch (Terminal ASCII Art)
+
+This theme includes a Barbie ASCII art header that displays when you open a terminal.
+
+To set it up, copy the fastfetch config files:
+
+```bash
+cp /path/to/omarchy-barbie-theme/fastfetch/barbie.txt ~/.config/fastfetch/barbie.txt
+cp /path/to/omarchy-barbie-theme/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+```
+
+Then add fastfetch to your `~/.bashrc`:
+
+```bash
+echo "fastfetch" >> ~/.bashrc
+```
+
+> **Note:** This will replace your existing fastfetch config. Back it up first if you want to keep it:
+> ```bash
+> cp ~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc.bak
+> ```
+
 ## Wallpapers
 
 Add your own Barbie-themed wallpapers to `~/.config/omarchy/themes/barbie/backgrounds/` and cycle through them with `Super + Ctrl + Space`.
