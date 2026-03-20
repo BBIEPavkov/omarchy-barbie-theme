@@ -406,6 +406,19 @@
       }
     },
     {
+      "name": "TS/TSX: access modifiers and const/let/var",
+      "scope": [
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.type.ts",
+        "storage.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#6A8FD8",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "TS/React: JSX tags",
       "scope": [
         "entity.name.tag.tsx",
