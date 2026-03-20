@@ -2,6 +2,8 @@
 
 A Barbie-inspired dark theme for [Omarchy](https://omarchy.org/) with deep violet-pink backgrounds, hot pink accents, sky blue class names, royal blue modifiers, and pastel yellow method names. Includes a matching VS Code theme.
 
+![Preview](preview.png)
+
 ## Install
 
 ```bash
@@ -30,7 +32,7 @@ A matching VS Code theme is included in the `vscode/` folder.
 **Install manually:**
 
 ```bash
-cp -r ~/omarchy-barbie-theme/vscode ~/.vscode/extensions/emilypavkov.omarchy-barbie-theme-1.0.0
+ln -s ~/.config/omarchy/themes/barbie/vscode ~/.vscode/extensions/emilypavkov.omarchy-barbie-theme-1.0.0
 ```
 
 Then reload VS Code and select **Omarchy Barbie** from the theme picker (`Ctrl + Shift + P` → Preferences: Color Theme).
@@ -53,8 +55,7 @@ This theme includes a Barbie ASCII art header that displays when you open a term
 To set it up, copy the fastfetch config files:
 
 ```bash
-cp ~/omarchy-barbie-theme/fastfetch/barbie.txt ~/.config/fastfetch/barbie.txt
-cp ~/omarchy-barbie-theme/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+cp ~/.config/omarchy/themes/barbie/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
 ```
 
 Then add fastfetch to your `~/.bashrc`:
