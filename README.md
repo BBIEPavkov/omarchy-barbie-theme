@@ -32,7 +32,7 @@ A matching VS Code theme is included in the `vscode/` folder.
 **Install manually:**
 
 ```bash
-ln -s ~/.config/omarchy/themes/barbie/vscode ~/.vscode/extensions/emilypavkov.omarchy-barbie-theme-1.0.0
+ln -s ~/.config/omarchy/themes/barbie/vscode ~/.vscode/extensions/omarchy-barbie-theme
 ```
 
 Then reload VS Code and select **Omarchy Barbie** from the theme picker (`Ctrl + Shift + P` → Preferences: Color Theme).
