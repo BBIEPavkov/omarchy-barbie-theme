@@ -172,7 +172,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#FFB3D9",
+        "foreground": "#A8D8EA80",
         "fontStyle": "italic"
       }
     },
@@ -389,7 +389,7 @@
         "string.quoted.docstring.multi.cs"
       ],
       "settings": {
-        "foreground": "#FFB3D9",
+        "foreground": "#A8D8EA80",
         "fontStyle": "italic"
       }
     },
@@ -547,7 +547,7 @@
     "plainKeyword": "#FF69B4",
     "controlKeyword": "#98D8C8",
     "comment": {
-      "foreground": "#FFB3D9",
+      "foreground": "#A8D8EA80",
       "fontStyle": "italic"
     },
     "operator": "#FF4DB8",
