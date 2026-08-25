@@ -1,7 +1,37 @@
+mode = "dark"
+
 accent = "#FF1493"
-cursor = "#FF69B4"
-foreground = "#FF8EC8"
+selection = "#FF1493"
+muted = "#5A1030"
+
 background = "#2D0A22"
+dark_background = "#1E0617"
+darker_background = "#140310"
+lighter_background = "#3D0A20"
+
+foreground = "#FF8EC8"
+dark_foreground = "#C76A99"
+light_foreground = "#FFD6E8"
+bright_foreground = "#FFE4F0"
+
+red = "#F50057"
+yellow = "#FFF0A0"
+orange = "#FFB380"
+green = "#98D8C8"
+cyan = "#A8D8EA"
+blue = "#87CEEB"
+magenta = "#FF1493"
+brown = "#8A4A5E"
+
+bright_red = "#FF4D7A"
+bright_yellow = "#FFF8C0"
+bright_green = "#B8E8DC"
+bright_cyan = "#C4E8F5"
+bright_blue = "#A8DEF5"
+bright_magenta = "#FF4DB8"
+
+# Legacy keys, kept so the theme still renders on 3.8.5 until the Quattro upgrade
+cursor = "#FF69B4"
 selection_foreground = "#2D0A22"
 selection_background = "#FF1493"
 
