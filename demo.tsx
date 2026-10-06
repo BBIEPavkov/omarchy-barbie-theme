@@ -4,7 +4,7 @@ interface BarbieThemeConfig {
   shimmer: boolean;
 }
 
-interface ThemeTokens {
+interface ThemeTokens { 
   primary: string;
   secondary: string;
 }

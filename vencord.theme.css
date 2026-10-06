@@ -1,0 +1,77 @@
+/**
+ * @name Omarchy Barbie
+ * @description Hot pink Barbie theme for Discord, matching the Omarchy Barbie theme.
+ * @author Emily Pavkov
+ * @version 1.0.0
+ * @source https://github.com/BBIEPavkov/omarchy-barbie-theme
+ */
+
+.theme-dark,
+.theme-darker,
+.theme-midnight,
+.visual-refresh.theme-dark {
+  /* Surfaces, darkest to lightest */
+  --background-tertiary: #140310;
+  --background-secondary: #1E0617;
+  --background-secondary-alt: #1E0617;
+  --background-primary: #2D0A22;
+  --background-floating: #1E0617;
+  --background-nested-floating: #1E0617;
+  --background-accent: #5A1030;
+  --background-base-lowest: #140310;
+  --background-base-lower: #1E0617;
+  --background-base-low: #2D0A22;
+  --background-surface-high: #3D0A20;
+  --background-surface-higher: #3D0A20;
+  --background-surface-highest: #5A1030;
+  --channeltextarea-background: #3D0A20;
+  --modal-background: #2D0A22;
+  --modal-footer-background: #1E0617;
+  --bg-overlay-chat: #2D0A22;
+  --chat-background-default: #2D0A22;
+
+  /* Hover and selection */
+  --background-modifier-hover: rgba(255, 20, 147, 0.08);
+  --background-modifier-active: rgba(255, 20, 147, 0.14);
+  --background-modifier-selected: rgba(255, 20, 147, 0.2);
+  --background-modifier-accent: rgba(255, 142, 200, 0.12);
+  --background-mentioned: rgba(255, 20, 147, 0.12);
+  --background-mentioned-hover: rgba(255, 20, 147, 0.18);
+
+  /* Text */
+  --text-normal: #FFD6E8;
+  --text-default: #FFD6E8;
+  --text-muted: #F48FB1;
+  --text-link: #FF69B4;
+  --header-primary: #FFE4F0;
+  --header-secondary: #FF8EC8;
+  --channels-default: #F48FB1;
+  --interactive-normal: #FF8EC8;
+  --interactive-hover: #FFD6E8;
+  --interactive-active: #FFE4F0;
+  --interactive-muted: #5A1030;
+
+  /* Accent */
+  --brand-experiment: #FF1493;
+  --brand-500: #FF1493;
+  --brand-560: #E0218A;
+  --button-filled-brand-background: #FF1493;
+  --button-filled-brand-background-hover: #E0218A;
+  --control-brand-foreground: #FF1493;
+  --mention-foreground: #FF69B4;
+  --mention-background: rgba(255, 20, 147, 0.2);
+
+  /* Status colors in the theme's pinks */
+  --status-positive: #FF69B4;
+  --status-danger: #F50057;
+  --text-positive: #FF69B4;
+  --text-danger: #F50057;
+
+  --scrollbar-thin-thumb: #5A1030;
+  --scrollbar-auto-thumb: #5A1030;
+  --scrollbar-auto-track: #1E0617;
+}
+
+::selection {
+  background: rgba(255, 20, 147, 0.4);
+}

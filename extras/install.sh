@@ -70,8 +70,15 @@ if ask "Install the hot pink cursor?"; then
   hyprctl setcursor "$CURSOR_THEME" 24 >/dev/null
 fi
 
-if ask "Use rounded corners and bouncy window animations?"; then
+if ask "Use rounded corners, a pink glow on the focused window, and bouncy window animations?"; then
   install_hypr_module barbie_windows
+fi
+
+if ask "Switch to the next Barbie wallpaper once a day?"; then
+  mkdir -p "$HOME/.config/systemd/user"
+  cp "$EXTRAS/systemd/barbie-daily-background.service" "$EXTRAS/systemd/barbie-daily-background.timer" "$HOME/.config/systemd/user/"
+  systemctl --user daemon-reload
+  systemctl --user enable --now barbie-daily-background.timer
 fi
 
 if ask "Install the pink heart terminal prompt? (replaces ~/.config/starship.toml; your current one is backed up)"; then

@@ -16,6 +16,12 @@ for id in emilypavkov.lock emilypavkov.clock emilypavkov.workspaces emilypavkov.
   fi
 done
 
+if [[ -f $HOME/.config/systemd/user/barbie-daily-background.timer ]]; then
+  systemctl --user disable --now barbie-daily-background.timer
+  rm -f "$HOME/.config/systemd/user/barbie-daily-background."{service,timer}
+  systemctl --user daemon-reload
+fi
+
 for name in barbie_cursor barbie_windows; do
   sed -i "/^require(\"hypr\.$name\")$/d" "$HYPR_CONFIG"
   rm -f "$HOME/.config/hypr/$name.lua"

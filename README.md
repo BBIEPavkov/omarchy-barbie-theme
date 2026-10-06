@@ -50,6 +50,18 @@ Then reload VS Code and select **Omarchy Barbie** from the theme picker (`Ctrl +
 | Control flow (`await`, `return`) | Mint |
 | Comments | Faded pink, italic |
 
+## Obsidian
+
+Omarchy themes Obsidian automatically. This theme adds heart bullet points, a heart before each top-level heading, pink highlights, and dividers made of hearts.
+
+## Discord
+
+For [Vencord](https://vencord.dev) or Vesktop: copy `vencord.theme.css` into Vencord's themes folder, then turn it on under Settings → Themes.
+
+```bash
+cp ~/.config/omarchy/themes/barbie/vencord.theme.css ~/.config/Vencord/themes/barbie.theme.css
+```
+
 ## Fastfetch (Terminal ASCII Art)
 
 This theme includes a Barbie ASCII art header that displays when you open a terminal.
@@ -87,7 +99,8 @@ The theme sets colors, wallpapers, a hot pink window border, and the boot screen
 | Bar | Clock in a script font, a ♥ on the current workspace, and a slightly taller bar |
 | Popups | Volume and brightness levels shown as hearts, and a ♥ on every notification |
 | Cursor | Hot pink cursor (a recolor of [Catppuccin Cursors](https://github.com/catppuccin/cursors), GPL-2.0) |
-| Windows | Rounded corners and bouncy open/close animations |
+| Windows | Rounded corners, a soft pink glow around the focused window, and bouncy open/close animations |
+| Daily wallpaper | Switches to the next Barbie wallpaper once a day |
 | Terminal prompt | Pink ♥ before the folder name, 💔 after a failed command ([Starship](https://starship.rs)) |
 | Launcher | "Where to, Barbie…" as the menu prompt |
 | Boot and login screens | Barbie logo on the boot password screen and the login screen (asks for your password) |

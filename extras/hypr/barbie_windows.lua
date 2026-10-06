@@ -1,9 +1,19 @@
--- Barbie extras: rounded corners and bouncy windows.
+-- Barbie extras: rounded corners, a pink glow on the focused window, and bouncy windows.
 -- Installed by the Barbie theme's extras/install.sh.
 
 hl.config({
   decoration = {
     rounding = 10,
+
+    -- Soft pink glow around the focused window only.
+    shadow = {
+      enabled = true,
+      range = 8,
+      render_power = 3,
+      offset = "0 0",
+      color = "rgba(ff1493aa)",
+      color_inactive = "rgba(00000000)",
+    },
   },
 })
 
