@@ -114,7 +114,7 @@ The theme sets colors, wallpapers, a hot pink window border, and the boot screen
 | Daily wallpaper | Switches to the next Barbie wallpaper once a day |
 | Terminal prompt | Pink ♥ before the folder name, 💔 after a failed command ([Starship](https://starship.rs)) |
 | Launcher | "Where to, Barbie…" as the menu prompt |
-| Boot and login screens | Barbie logo on the boot password screen and the login screen (asks for your password) |
+| Boot and login screens | A BarbieOS logo on black for the boot password screen and the login screen (asks for your password) |
 
 To undo all of it and get Omarchy's built-ins back:
 
