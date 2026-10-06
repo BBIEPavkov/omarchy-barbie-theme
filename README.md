@@ -79,6 +79,8 @@ The theme sets colors, wallpapers, a hot pink window border, and the boot screen
 ~/.config/omarchy/themes/barbie/extras/install.sh
 ```
 
+![Barbie lock screen](lock-preview.png)
+
 | Extra | What you get |
 |-------|--------------|
 | Lock screen | Shimmering Barbie logo, script clock and date, floating hearts and sparkles, heart password dots, a sparkle trail and click bursts, sassier messages on each wrong password, confetti on unlock. The layout drifts slowly to avoid burn-in. |
