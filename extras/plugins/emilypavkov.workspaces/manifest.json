@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "emilypavkov.workspaces",
+  "name": "Barbie Workspaces",
+  "version": "1.0.0",
+  "author": "Emily Pavkov",
+  "description": "Workspace numbers with a heart on the current one",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Barbie Workspaces",
+    "description": "Workspace number indicators",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}

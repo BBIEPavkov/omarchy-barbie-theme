@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "emilypavkov.lock",
+  "name": "Barbie Lock Screen",
+  "version": "1.0.0",
+  "author": "Emily Pavkov",
+  "description": "Barbie-themed lock screen: floating hearts, sparkle trail, heart password dots, and unlock confetti.",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.lock"
+  }
+}

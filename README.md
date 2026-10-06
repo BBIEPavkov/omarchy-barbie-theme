@@ -7,14 +7,16 @@ A Barbie-inspired dark theme for [Omarchy](https://omarchy.org/) with deep viole
 ## Install
 
 ```bash
-omarchy-theme-install https://github.com/BBIEPavkov/omarchy-barbie-theme
+omarchy theme install https://github.com/BBIEPavkov/omarchy-barbie-theme
 ```
 
 Then apply it:
 
 ```bash
-omarchy-theme-set barbie
+omarchy theme set barbie
 ```
+
+Requires Omarchy 4 (Quattro) and the `Yaru-magenta` icon theme.
 
 ## Colors
 
@@ -69,6 +71,53 @@ echo "fastfetch" >> ~/.bashrc
 > cp ~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc.bak
 > ```
 
+## Extras
+
+The theme sets colors, wallpapers, a hot pink window border, and the boot screen logo. Everything else is optional and installed by a script that asks before each piece:
+
+```bash
+~/.config/omarchy/themes/barbie/extras/install.sh
+```
+
+| Extra | What you get |
+|-------|--------------|
+| Lock screen | Shimmering Barbie logo, script clock and date, floating hearts and sparkles, heart password dots, a sparkle trail and click bursts, sassier messages on each wrong password, confetti on unlock. The layout drifts slowly to avoid burn-in. |
+| Bar | Clock in a script font, a ♥ on the current workspace, and a slightly taller bar |
+| Popups | Volume and brightness levels shown as hearts, and a ♥ on every notification |
+| Cursor | Hot pink cursor (a recolor of [Catppuccin Cursors](https://github.com/catppuccin/cursors), GPL-2.0) |
+| Windows | Rounded corners and bouncy open/close animations |
+| Terminal prompt | Pink ♥ before the folder name, 💔 after a failed command ([Starship](https://starship.rs)) |
+| Launcher | "Where to, Barbie…" as the menu prompt |
+| Boot and login screens | Barbie logo on the boot password screen and the login screen (asks for your password) |
+
+To undo all of it and get Omarchy's built-ins back:
+
+```bash
+~/.config/omarchy/themes/barbie/extras/uninstall.sh
+```
+
+To customize the lock screen, edit `~/.config/omarchy/plugins/emilypavkov.lock/LockView.qml` (messages, number of hearts) or `Service.qml` (wrong-password messages), then run `omarchy restart shell`.
+
 ## Wallpapers
 
-Add your own Barbie-themed wallpapers to `~/.config/omarchy/themes/barbie/backgrounds/` and cycle through them with `Super + Ctrl + Space`.
+Cycle through them with `Super + Ctrl + Space` or `omarchy theme bg next`. Add your own to `~/.config/omarchy/backgrounds/barbie/`; that folder survives theme updates.
+
+Photos from [Unsplash](https://unsplash.com), free to use under the [Unsplash License](https://unsplash.com/license):
+
+| File | Photographer |
+|------|--------------|
+| `palms-purple-sky.jpg` | [Tim Mossholder](https://unsplash.com/photos/YMtLdvIQtu0) |
+| `pink-blossoms.jpg` | [Mi Min](https://unsplash.com/photos/pkpqoBp11Jc) |
+| `pink-building-palms.jpg` | [Caroline Ross](https://unsplash.com/photos/qkZbgZ9dM8c) |
+| `pink-clouds.jpg` | [Xinyi Wen](https://unsplash.com/photos/qjCHPZbeXCQ) |
+| `pink-paint-swirl.jpg` | [Pawel Czerwinski](https://unsplash.com/photos/6Oyd_q79z2M) |
+| `pink-peach-gradient.jpg` | [Ikhlas](https://unsplash.com/photos/MzfOPW5Tb3M) |
+| `pink-sky-bridge.jpg` | [Anders Jildén](https://unsplash.com/photos/AkUR27wtaxs) |
+
+## Fonts
+
+The lock screen bundles [Pacifico](https://github.com/googlefonts/Pacifico) and the bar clock bundles [Dancing Script](https://github.com/googlefonts/DancingScript), both under the SIL Open Font License (see each plugin's `OFL.txt`). The plugins are based on Omarchy's built-in ones ([MIT](https://github.com/basecamp/omarchy/blob/master/LICENSE)).
+
+## Disclaimer
+
+Barbie is a trademark of Mattel, Inc. This is an unofficial fan theme and is not affiliated with or endorsed by Mattel.

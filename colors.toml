@@ -4,6 +4,8 @@ accent = "#FF1493"
 selection = "#FF1493"
 muted = "#5A1030"
 
+hyprland_active_border = "rgba(ff1493ee) rgba(ff69b4ee) rgba(f50057ee) 45deg"
+
 background = "#2D0A22"
 dark_background = "#1E0617"
 darker_background = "#140310"
