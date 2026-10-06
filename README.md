@@ -110,7 +110,7 @@ The theme sets colors, wallpapers, a hot pink window border, and the boot screen
 | Bar | Clock in a script font, a ♥ on the current workspace, and a slightly taller bar |
 | Popups | Volume and brightness levels shown as hearts, and a ♥ on every notification |
 | Cursor | Hot pink cursor (a recolor of [Catppuccin Cursors](https://github.com/catppuccin/cursors), GPL-2.0) |
-| Windows | Rounded corners, a soft pink glow around the focused window, and bouncy open/close animations |
+| Windows | Rounded corners, a soft pink glow around the focused window, slightly see-through unfocused windows, and bouncy open/close animations |
 | Daily wallpaper | Switches to the next Barbie wallpaper once a day |
 | Terminal prompt | Pink ♥ before the folder name, 💔 after a failed command ([Starship](https://starship.rs)) |
 | Launcher | "Where to, Barbie…" as the menu prompt |

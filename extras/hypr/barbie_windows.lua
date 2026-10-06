@@ -1,9 +1,12 @@
--- Barbie extras: rounded corners, a pink glow on the focused window, and bouncy windows.
+-- Barbie extras: rounded corners, a pink glow on the focused window, see-through
+-- unfocused windows, and bouncy windows.
 -- Installed by the Barbie theme's extras/install.sh.
 
 hl.config({
   decoration = {
     rounding = 10,
+    -- Multiplies Omarchy's per-window opacity, so unfocused windows end up around 80%.
+    inactive_opacity = 0.83,
 
     -- Soft pink glow around the focused window only.
     shadow = {
