@@ -74,13 +74,6 @@ if ask "Use rounded corners, a pink glow on the focused window, see-through unfo
   install_hypr_module barbie_windows
 fi
 
-if ask "Switch to the next Barbie wallpaper once a day?"; then
-  mkdir -p "$HOME/.config/systemd/user"
-  cp "$EXTRAS/systemd/barbie-daily-background.service" "$EXTRAS/systemd/barbie-daily-background.timer" "$HOME/.config/systemd/user/"
-  systemctl --user daemon-reload
-  systemctl --user enable --now barbie-daily-background.timer
-fi
-
 if ask "Install the pink heart terminal prompt? (replaces ~/.config/starship.toml; your current one is backed up)"; then
   if [[ -f $HOME/.config/starship.toml ]]; then
     cp "$HOME/.config/starship.toml" "$HOME/.config/starship.toml.bak.$(date +%s)"

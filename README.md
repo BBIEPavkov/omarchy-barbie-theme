@@ -111,7 +111,6 @@ The theme sets colors, wallpapers, a hot pink window border, and the boot screen
 | Popups | Volume and brightness levels shown as hearts, and a ♥ on every notification |
 | Cursor | Hot pink cursor (a recolor of [Catppuccin Cursors](https://github.com/catppuccin/cursors), GPL-2.0) |
 | Windows | Rounded corners, a soft pink glow around the focused window, slightly see-through unfocused windows, and bouncy open/close animations |
-| Daily wallpaper | Switches to the next Barbie wallpaper once a day |
 | Terminal prompt | Pink ♥ before the folder name, 💔 after a failed command ([Starship](https://starship.rs)) |
 | Launcher | "Where to, Barbie…" as the menu prompt |
 | Boot and login screens | A BarbieOS logo on black for the boot password screen and the login screen (asks for your password) |
@@ -121,6 +120,8 @@ To undo all of it and get Omarchy's built-ins back:
 ```bash
 ~/.config/omarchy/themes/barbie/extras/uninstall.sh
 ```
+
+`omarchy refresh hyprland` resets `~/.config/hypr/hyprland.lua`, which drops the cursor and window extras. Run `install.sh` again and say yes to those two to bring them back.
 
 To customize the lock screen, edit `~/.config/omarchy/plugins/emilypavkov.lock/LockView.qml` (messages, number of hearts) or `Service.qml` (wrong-password messages), then run `omarchy restart shell`.
 
