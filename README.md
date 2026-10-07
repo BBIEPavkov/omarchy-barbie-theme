@@ -132,13 +132,18 @@ Photos from [Unsplash](https://unsplash.com), free to use under the [Unsplash Li
 
 | File | Photographer |
 |------|--------------|
-| `palms-purple-sky.jpg` | [Tim Mossholder](https://unsplash.com/photos/YMtLdvIQtu0) |
 | `pink-blossoms.jpg` | [Mi Min](https://unsplash.com/photos/pkpqoBp11Jc) |
-| `pink-building-palms.jpg` | [Caroline Ross](https://unsplash.com/photos/qkZbgZ9dM8c) |
 | `pink-clouds.jpg` | [Xinyi Wen](https://unsplash.com/photos/qjCHPZbeXCQ) |
-| `pink-paint-swirl.jpg` | [Pawel Czerwinski](https://unsplash.com/photos/6Oyd_q79z2M) |
-| `pink-peach-gradient.jpg` | [Ikhlas](https://unsplash.com/photos/MzfOPW5Tb3M) |
 | `pink-sky-bridge.jpg` | [Anders Jildén](https://unsplash.com/photos/AkUR27wtaxs) |
+| `blossom-burst.jpg` | [Anita Austvika](https://unsplash.com/photos/R-p7nxAna5Q) |
+| `blossoms-blue-sky.jpg` | [AJ](https://unsplash.com/photos/McsNra2VRQQ) |
+| `cherry-branch.jpg` | [Tsz Chung Cheng](https://unsplash.com/photos/MEgGgIpNoho) |
+| `lavender-moonrise.jpg` | [Dan LeFebvre](https://unsplash.com/photos/BnLNqGSnLs4) |
+| `misty-pink-ridges.jpg` | [Arno Senoner](https://unsplash.com/photos/NrUdF73jklw) |
+| `pink-clouds-moon.jpg` | [John Thomas](https://unsplash.com/photos/HYAnBGL77eo) |
+| `pink-clouds-peaks.jpg` | [Marsumilae](https://unsplash.com/photos/4NXUWw0GXx4) |
+| `pink-sky-snowy-peaks.jpg` | [Tory Hoffman](https://unsplash.com/photos/-rY1rsPimmg) |
+| `purple-mountain-sunset.jpg` | [Олег Мороз](https://unsplash.com/photos/68ZCl8jClYs) |
 
 ## Fonts
 
