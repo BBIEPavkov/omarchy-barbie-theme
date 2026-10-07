@@ -1,4 +1,4 @@
   // barbie-extras begin (the menu adds "…" after each title)
   "root": {"label":"Go","title":"Where to, Barbie"},
-  "apps": {"title":"Which app, Barbie"},
+  "apps": {"icon":"󰀻","label":"Apps","aliases":["app","applications"],"provider":"apps","title":"Which app, Barbie"},
   // barbie-extras end
