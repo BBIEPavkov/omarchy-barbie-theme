@@ -10,6 +10,7 @@ PLUGINS_DIR="$HOME/.config/omarchy/plugins"
 HYPR_CONFIG="$HOME/.config/hypr/hyprland.lua"
 MENU_CONFIG="$HOME/.config/omarchy/extensions/omarchy-menu.jsonc"
 USER_SHELL_CONFIG="$HOME/.config/omarchy/shell.toml"
+SHELL_CONFIG="$HOME/.config/omarchy/shell.json"
 CURSOR_THEME="barbie-hotpink-cursors"
 
 ask() {
@@ -48,8 +49,13 @@ if ask "Install the Barbie lock screen? (floating hearts, shimmering logo, unloc
   install_plugins emilypavkov.lock
 fi
 
-if ask "Install the Barbie bar? (script-font clock, heart on the current workspace, slightly taller bar)"; then
+if ask "Install the Barbie bar? (script-font clock with the date, heart on the current workspace, slightly taller bar)"; then
   install_plugins emilypavkov.clock emilypavkov.workspaces
+  if [[ -f $SHELL_CONFIG ]]; then
+    # Show the date and a heart before the time, e.g. "Mon, Oct 12  ♥  14:05".
+    jq '(.bar.layout[]?[]? | select(.id? == "emilypavkov.clock")) |= (.format = "ddd, MMM d  ♥  HH:mm")' \
+      "$SHELL_CONFIG" >"$SHELL_CONFIG.tmp" && mv "$SHELL_CONFIG.tmp" "$SHELL_CONFIG"
+  fi
   if [[ -f $USER_SHELL_CONFIG ]]; then
     echo "Left $USER_SHELL_CONFIG alone. For the taller bar, set [bar] size-horizontal = 30 and [font] base-size = 13 there."
   else

@@ -430,7 +430,7 @@ Item {
 
   Timer {
     id: idleBlankTimer
-    interval: 3600000
+    interval: 4500000
     repeat: false
     property double armedAt: 0
     onTriggered: {

@@ -107,7 +107,7 @@ The theme sets colors, wallpapers, a hot pink window border, and the boot screen
 | Extra | What you get |
 |-------|--------------|
 | Lock screen | Shimmering Barbie logo, script clock and date, floating hearts and sparkles, heart password dots, a sparkle trail and click bursts, sassier messages on each wrong password, confetti on unlock. The layout drifts slowly to avoid burn-in. |
-| Bar | Clock in a script font, a ♥ on the current workspace, and a slightly taller bar |
+| Bar | Clock in a script font with the date ("Mon, Oct 12  ♥  14:05"), a ♥ on the current workspace, and a slightly taller bar |
 | Popups | Volume and brightness levels shown as hearts, and a ♥ on every notification |
 | Cursor | Hot pink cursor (a recolor of [Catppuccin Cursors](https://github.com/catppuccin/cursors), GPL-2.0) |
 | Windows | Rounded corners, a soft pink glow around the focused window, slightly see-through unfocused windows, and bouncy open/close animations |
@@ -136,6 +136,9 @@ Photos from [Unsplash](https://unsplash.com), free to use under the [Unsplash Li
 | `pink-blossoms.jpg` | [Mi Min](https://unsplash.com/photos/pkpqoBp11Jc) |
 | `pink-clouds.jpg` | [Xinyi Wen](https://unsplash.com/photos/qjCHPZbeXCQ) |
 | `pink-sky-bridge.jpg` | [Anders Jildén](https://unsplash.com/photos/AkUR27wtaxs) |
+| `dark-silk-waves.jpg` | [Pawel Czerwinski](https://unsplash.com/photos/ZkzobNDayXo) |
+| `pink-abstract-hills.jpg` | [Martin Martz](https://unsplash.com/photos/XsVT2hGsSyQ) |
+| `pink-smoke.jpg` | [engin akyurt](https://unsplash.com/photos/Eh0JqXcWY5g) |
 | `blossom-burst.jpg` | [Anita Austvika](https://unsplash.com/photos/R-p7nxAna5Q) |
 | `blossoms-blue-sky.jpg` | [AJ](https://unsplash.com/photos/McsNra2VRQQ) |
 | `cherry-branch.jpg` | [Tsz Chung Cheng](https://unsplash.com/photos/MEgGgIpNoho) |
