@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Omarchy updates reset the boot and login screens, so put the BarbieOS logo back.
+logo="$HOME/.config/omarchy/themes/barbie/unlock.png"
+[[ -f $logo ]] || exit 0
+omarchy-plymouth-set "#000000" "#FF8EC8" "$logo"

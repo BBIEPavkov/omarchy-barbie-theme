@@ -105,6 +105,8 @@ hyprctl configerrors
 if ask "Set the boot and login screens to the BarbieOS logo? (asks for your password)"; then
   # Black background instead of the theme's, so the logo stands out.
   omarchy-plymouth-set "#000000" "#FF8EC8" "$EXTRAS/../unlock.png"
+  # Omarchy updates reset these screens; this hook sets the logo again after each one.
+  omarchy-hook-install post-update "$EXTRAS/hooks/barbie-boot-screen"
 fi
 
 echo "Done. Lock with 'omarchy system lock' to see the lock screen."

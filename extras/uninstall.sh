@@ -40,6 +40,7 @@ hyprctl reload >/dev/null
 hyprctl configerrors
 
 if gum confirm "Restore Omarchy's default boot and login screens? (asks for your password)"; then
+  rm -f "$HOME/.config/omarchy/hooks/post-update.d/barbie-boot-screen"
   omarchy-plymouth-reset
 fi
 
