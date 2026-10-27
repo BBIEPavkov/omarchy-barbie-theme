@@ -73,30 +73,9 @@ For [Vencord](https://vencord.dev) or Vesktop: copy `vencord.theme.css` into Ven
 cp ~/.config/omarchy/themes/barbie/vencord.theme.css ~/.config/Vencord/themes/barbie.theme.css
 ```
 
-## Fastfetch (Terminal ASCII Art)
-
-This theme includes a Barbie ASCII art header that displays when you open a terminal.
-
-To set it up, copy the fastfetch config files:
-
-```bash
-cp ~/.config/omarchy/themes/barbie/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
-```
-
-Then add fastfetch to your `~/.bashrc`:
-
-```bash
-echo "fastfetch" >> ~/.bashrc
-```
-
-> **Note:** This will replace your existing fastfetch config. Back it up first if you want to keep it:
-> ```bash
-> cp ~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc.bak
-> ```
-
 ## Extras
 
-The theme sets colors, wallpapers, a hot pink window border, and the boot screen logo. A Barbie lock screen, heart bar, heart popups, pink cursor, and more are in the separate [Omarchy Barbie Extras](https://github.com/BBIEPavkov/omarchy-barbie-extras) repo.
+The theme sets colors, wallpapers, a hot pink window border, and the boot screen logo. A Barbie lock screen, heart bar, heart popups, pink cursor, fastfetch logo, and more are in the separate [Omarchy Barbie Extras](https://github.com/BBIEPavkov/omarchy-barbie-extras) repo.
 
 ## Wallpapers
 
