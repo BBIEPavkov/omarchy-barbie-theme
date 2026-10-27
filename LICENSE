@@ -20,8 +20,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Not covered by this license:
-- Wallpapers in backgrounds/; see the Wallpapers section of README.md.
-- extras/cursors/, a recolor of Catppuccin Cursors under GPL-2.0; see its LICENSE.
-- The bundled fonts in extras/plugins/, under the SIL Open Font License; see
-  each OFL.txt.
+Not covered by this license: wallpapers in backgrounds/; see the Wallpapers section of README.md.

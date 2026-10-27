@@ -96,34 +96,7 @@ echo "fastfetch" >> ~/.bashrc
 
 ## Extras
 
-The theme sets colors, wallpapers, a hot pink window border, and the boot screen logo. Everything else is optional and installed by a script that asks before each piece:
-
-```bash
-~/.config/omarchy/themes/barbie/extras/install.sh
-```
-
-![Barbie lock screen](lock-preview.png)
-
-| Extra | What you get |
-|-------|--------------|
-| Lock screen | Shimmering Barbie logo, script clock and date, floating hearts and sparkles, heart password dots, a sparkle trail and click bursts, sassier messages on each wrong password, confetti on unlock. The layout drifts slowly to avoid burn-in. |
-| Bar | Clock in a script font with the date ("Mon, Oct 12  ♥  14:05"), a ♥ on the current workspace, and a slightly taller bar |
-| Popups | Volume and brightness levels shown as hearts, and a ♥ on every notification |
-| Cursor | Hot pink cursor (a recolor of [Catppuccin Cursors](https://github.com/catppuccin/cursors), GPL-2.0) |
-| Windows | Rounded corners, a soft pink glow around the focused window, slightly see-through unfocused windows, and bouncy open/close animations |
-| Terminal prompt | Pink ♥ before the folder name, 💔 after a failed command ([Starship](https://starship.rs)) |
-| Launcher | "Where to, Barbie…" as the menu prompt |
-| Boot and login screens | A BarbieOS logo on black for the boot password screen and the login screen, set again after each `omarchy update` (asks for your password) |
-
-To undo all of it and get Omarchy's built-ins back:
-
-```bash
-~/.config/omarchy/themes/barbie/extras/uninstall.sh
-```
-
-`omarchy refresh hyprland` resets `~/.config/hypr/hyprland.lua`, which drops the cursor and window extras. Run `install.sh` again and say yes to those two to bring them back.
-
-To customize the lock screen, edit `~/.config/omarchy/plugins/emilypavkov.lock/LockView.qml` (messages, number of hearts) or `Service.qml` (wrong-password messages), then run `omarchy restart shell`.
+The theme sets colors, wallpapers, a hot pink window border, and the boot screen logo. A Barbie lock screen, heart bar, heart popups, pink cursor, and more are in the separate [Omarchy Barbie Extras](https://github.com/BBIEPavkov/omarchy-barbie-extras) repo.
 
 ## Wallpapers
 
@@ -148,10 +121,6 @@ Photos from [Unsplash](https://unsplash.com), free to use under the [Unsplash Li
 | `pink-clouds-peaks.jpg` | [Marsumilae](https://unsplash.com/photos/4NXUWw0GXx4) |
 | `pink-sky-snowy-peaks.jpg` | [Tory Hoffman](https://unsplash.com/photos/-rY1rsPimmg) |
 | `purple-mountain-sunset.jpg` | [Олег Мороз](https://unsplash.com/photos/68ZCl8jClYs) |
-
-## Fonts
-
-The lock screen bundles [Pacifico](https://github.com/googlefonts/Pacifico) and the bar clock bundles [Dancing Script](https://github.com/googlefonts/DancingScript), both under the SIL Open Font License (see each plugin's `OFL.txt`). The plugins are based on Omarchy's built-in ones ([MIT](https://github.com/basecamp/omarchy/blob/master/LICENSE)).
 
 ## Disclaimer
 
