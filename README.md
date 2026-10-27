@@ -77,6 +77,8 @@ cp ~/.config/omarchy/themes/barbie/vencord.theme.css ~/.config/Vencord/themes/ba
 
 The theme sets colors, wallpapers, a hot pink window border, and the boot screen logo. A Barbie lock screen, heart bar, heart popups, pink cursor, fastfetch logo, and more are in the separate [Omarchy Barbie Extras](https://github.com/BBIEPavkov/omarchy-barbie-extras) repo.
 
+![Barbie lock screen from the extras](lock-preview.png)
+
 ## Wallpapers
 
 Cycle through them with `Super + Ctrl + Space` or `omarchy theme bg next`. Add your own to `~/.config/omarchy/backgrounds/barbie/`; that folder survives theme updates.
